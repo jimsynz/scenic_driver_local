@@ -16,7 +16,8 @@ defmodule Scenic.Driver.Local do
 
   @window_schema [
     title: [type: :string, default: "Scenic Window"],
-    resizeable: [type: :boolean, default: false]
+    resizeable: [type: :boolean, default: false],
+    fbdev: [type: :string, required: false]
   ]
 
   @opts_schema [
